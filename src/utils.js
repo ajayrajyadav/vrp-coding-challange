@@ -1,5 +1,13 @@
 const fs = require('fs');
 
+// Function to calculate Euclidean distance between two points
+// Simple distance formula based on Cartesian coordinates
+function euclideanDistance(point1, point2) {
+    const [x1, y1] = point1; // Deconstruct point1
+    const [x2, y2] = point2; // Deconstruct point2
+    // Use the distance formula
+    return Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
+}
 
 // Function to parse input file and extract load data
 // Each load has an ID, pickup location, and dropoff location
