@@ -22,8 +22,8 @@ Thank you for taking the time to evaluate this submission. I have made some desi
 # Installation
 Clone the repo
 ```
-git clone https://github.com/your-repo/vrp-solution.git
-cd vrp-solution
+git clone https://github.com/ajayrajyadav/vrp-coding-challange.git
+cd vrp-coding-challange
 ```
 # Usage
 ```
